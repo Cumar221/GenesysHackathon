@@ -1,0 +1,23 @@
+{
+  "name": "genesyshackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cumar221/GenesysHackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cumar221/GenesysHackathon/issues"
+  },
+  "homepage": "https://github.com/Cumar221/GenesysHackathon#readme",
+  "dependencies": {
+    "genesys-workspace-client-js": "^1.0.512",
+    "request": "^2.88.0"
+  }
+}
