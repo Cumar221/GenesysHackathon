@@ -68,7 +68,9 @@ function loginWithoutLoginPage(req,res) {
         json: true
     }, function (err, res2, body) {
         workspaceApi.initialize({token: body.access_token}).then(() => {
-            return workspaceApi.activateChannels(workspaceApi.user.employeeId, null, workspaceApi.user.defaultPlace);
+            return workspaceApi.activateChannels(workspaceApi.user.employeeId, null, workspaceApi.user.defaultPlace).then(() =>{
+                workspaceApi.voice.ready();
+            });
         }).catch(err => {
             console.log("Errr");
             console.error(err)
