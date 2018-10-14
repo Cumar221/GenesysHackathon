@@ -1,23 +1,31 @@
 {
-  "name": "genesyshackathon",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cumar221/GenesysHackathon.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cumar221/GenesysHackathon/issues"
-  },
-  "homepage": "https://github.com/Cumar221/GenesysHackathon#readme",
+  "name": "hackathon",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "genesys-workspace-client-js": "^1.0.512",
-    "request": "^2.88.0"
-  }
+    "emoji-mart": "^2.8.1",
+    "fs": "0.0.1-security",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-html5-camera-photo": "^1.2.9",
+    "react-multimedia-capture": "^1.2.1",
+    "react-scripts": "2.0.4",
+    "recordrtc": "^5.4.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
